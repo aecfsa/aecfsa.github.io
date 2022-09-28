@@ -1,0 +1,62 @@
+title: "AECFSA"
+email: contact@aecfsa.com
+timezone: UTC
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: Sal
+paginate: 30
+disqus: 'demowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: 
+
+# Authors
+authors:
+  Taha:
+    name: Taha Bouhsine 
+    display_name: Taha Bouhsine
+    avatar: 'assets/images/taha.jpeg'
+    email: tahabhs14@gmail.com
+    web: http://www.tahabouhsine.me/
+    twitter: https://twitter.com/tahabsn
+    instagram: https://www.instagram.com/tahabsn
+    description: "He is a Machine Learning Researcher and a Data Scientist. He obtained his Bachelor of Science in Mathematics and Computer Science from the Faculty of Science Agadir, Ibn Zohr University, Morocco in 2020, then continued to receive his Master of Research degree in Data Science from the same University in 2022. His research interest includes Machine Learning, Computer Vision, Signal Processing, and Natural Language Processing, applied to solve real-world problems."
+  Aichi:
+    name: Asmae Aichi
+    display_name: AAichi
+    avatar: 'assets/images/taha.jpeg'
+    email: wowthemesnet@gmail.com
+    web: https://twitter.com/asmaeaichi
+    twitter: https://twitter.com/asmaeaichi
+    description: "This is the author box."
+
+# Social
+social:
+  instagram: https://www.instagram.com/AECFSA/
+  facebook: https://www.facebook.com/AECFSA/
+  twitter: https://twitter.com/AECFSA
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
+
+# GitHub Pages Configuration
+url: aecfsa.github.io
+domain: aecfsa.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://aecfsa.github.io  # the base hostname and protocol for your site, e.g. http://example.com
